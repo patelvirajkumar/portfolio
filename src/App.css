@@ -3,3 +3,17 @@
 *{
     font-family: 'Syne Mono', monospace;
 }
+
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    z-index: 1;
+}
+
+@media(max-width:768px){
+    .particle-onscreen{
+        display: none;
+        
+    }
+}
